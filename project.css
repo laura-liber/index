@@ -1,0 +1,61 @@
+/*global*/
+:root{
+    --primary:#ffcc11;
+    --secondary:rgb(5, 153, 153);
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+h2,h3{
+    text-align:center;
+}
+p{
+    line-height:2;
+}
+h3{
+    color:var(--secondary);
+    font-weight:400;
+    font-size:20px;
+}
+/*header*/
+.header-in{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 35vh;
+}
+.header-in p{
+    font-size:22px;
+}
+.header-in p i{
+    font-size:35px;
+    color:var(--primary);
+    margin-right:10px;
+}
+.btn{
+    background-color:var(--secondary);
+    color:white;
+    font-weight:700;
+    padding-right:50px;
+    padding-left:50px;
+    border-radius:5px;
+}
+
+/*menu*/
+.menu{
+    background-color: white;
+}
+
+.menu a{
+    display:block;
+    color:black;
+    font-size:24px;
+    text-decoration:none;
+    text-align:center;
+    margin-top:20px;
+}
